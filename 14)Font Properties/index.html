@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boder Radius</title>
+    <style>
+        body{
+            font-size: 18px;
+            /* font-weight: 600; */
+        }
+        #box{
+            width:400px;
+            padding:25px;
+            margin-bottom: 20px;
+            border:2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-size: 12px; */
+            /* font-size: 50%;take value form parent reduce 50% --> 9px */
+            /* font-size: 1em; take value form parent increase eg 2em --> it become 36px */
+
+
+            /* line-height: 4em; take value form parent increase eg 2em --> it become 36px */
+            /* line-height: 35px; */
+
+            /* font-weight: bold; it can be bold,normal,bolder,lighter {also number 100-900 (700-bold, 900--> bolder)} */
+            /* font-weight: 700; */
+            /* font-weight: 900; */
+            /* font-weight: bolder; parent bolder where parent is 600 */
+            /* font-weight: lighter; parent lighter where parent is 600  Work accordingly to parent*/
+            /* font-style: oblique; */
+            /* font-variant: small-caps; */
+            font: oblique small-caps normal 1em/35px arial;
+        }
+        #box2{
+            width:400px;
+            padding:25px;
+            border:2px solid black;
+        }
+        #box2 span{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yahoo Baba: Border Radius</h1>
+    <div id="box">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nobis cumque? Possimus omnis officiis harum mollitia eaque architecto ex ullam voluptate obcaecati odit debitis quaerat, numquam consectetur, illum illo nesciunt maiores dicta deserunt aperiam? Perspiciatis esse corporis molestias quis beatae fugiat eos odit, minus pariatur provident non neque? Hic, autem!        
+    </div>
+    <div id="box2">
+        Lorem ipsum <span>dolor sit <span> consectetur</span> adipisicing elit</span>.Perferendis, nobis cumque? Possimus omnis officiis harum mollitia eaque architecto ex ullam voluptate obcaecati odit debitis quaerat, numquam consectetur, illum illo nesciunt maiores dicta deserunt aperiam? Perspiciatis esse corporis molestias quis beatae fugiat eos odit, minus pariatur provident non neque? Hic, autem!        
+     </div>
+</body>
+</html>
